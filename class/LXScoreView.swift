@@ -2,8 +2,8 @@
 //  LXScoreView.swift
 //  LXScore
 //
-//  Created by SinodomMac02 on 16/9/23.
-//  Copyright © 2016年 李响. All rights reserved.
+//  
+//  Copyright © 20161104613 All rights reserved.
 //
 
 import UIKit
