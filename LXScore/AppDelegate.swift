@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  LXScore
 //
-//  Created by SinodomMac02 on 16/9/23.
-//  Copyright © 2016年 李响. All rights reserved.
+//
+//  Copyright © 20161104613. All rights reserved.
 //
 
 import UIKit
@@ -16,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        UIButton.appearance().isExclusiveTouch = true
         return true
     }
 

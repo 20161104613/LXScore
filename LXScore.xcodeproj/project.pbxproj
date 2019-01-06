@@ -14,6 +14,7 @@
 		679BF7F91D95198500501D55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 679BF7F71D95198500501D55 /* LaunchScreen.storyboard */; };
 		679BF8041D95198500501D55 /* LXScoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679BF8031D95198500501D55 /* LXScoreTests.swift */; };
 		679BF80F1D95198500501D55 /* LXScoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679BF80E1D95198500501D55 /* LXScoreUITests.swift */; };
+		679BF81E1D9519EC00501D55 /* LXScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679BF81D1D9519EC00501D55 /* LXScoreView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		679BF80A1D95198500501D55 /* LXScoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXScoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		679BF80E1D95198500501D55 /* LXScoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXScoreUITests.swift; sourceTree = "<group>"; };
 		679BF8101D95198500501D55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		679BF81D1D9519EC00501D55 /* LXScoreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXScoreView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		679BF7E21D95198500501D55 = {
 			isa = PBXGroup;
 			children = (
+				679BF81C1D9519D100501D55 /* class */,
 				679BF7ED1D95198500501D55 /* LXScore */,
 				679BF8021D95198500501D55 /* LXScoreTests */,
 				679BF80D1D95198500501D55 /* LXScoreUITests */,
@@ -123,6 +126,14 @@
 				679BF8101D95198500501D55 /* Info.plist */,
 			);
 			path = LXScoreUITests;
+			sourceTree = "<group>";
+		};
+		679BF81C1D9519D100501D55 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				679BF81D1D9519EC00501D55 /* LXScoreView.swift */,
+			);
+			path = class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				679BF7F11D95198500501D55 /* ViewController.swift in Sources */,
+				679BF81E1D9519EC00501D55 /* LXScoreView.swift in Sources */,
 				679BF7EF1D95198500501D55 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -512,6 +524,7 @@
 				679BF8151D95198500501D55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		679BF8161D95198500501D55 /* Build configuration list for PBXNativeTarget "LXScoreTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +533,7 @@
 				679BF8181D95198500501D55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		679BF8191D95198500501D55 /* Build configuration list for PBXNativeTarget "LXScoreUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +542,7 @@
 				679BF81B1D95198500501D55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
